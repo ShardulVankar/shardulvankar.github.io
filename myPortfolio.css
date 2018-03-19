@@ -101,24 +101,16 @@ p{
 .curriculum{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
-.projectTitle{
+.Title{
 	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
 	margin-right:100px;
 }
 
-.projectDesc{
+.Data{
 	margin-left:100px;
 	margin-right:100px;
 }
-.experienceTitle{
-	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
-	margin-right:100px;
-}
-
-.experienceDesc{
-	 height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
-	margin-right:100px;
-}
+\
 /*-------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:500px){
 
@@ -192,21 +184,15 @@ p{
 .curriculum{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
-.projectTitle{
+.Title{
 	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
 }
 
-.projectDesc{
+.Data{
 	margin-left:0px;
 	margin-right:0px;
 }
-.experienceTitle{
-	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
-}
 
-.experienceDesc{
-	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
-}
 }
 
 
@@ -295,20 +281,14 @@ p{
 .curriculum{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
-.projectTitle{
+.Title{
 	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
 }
 
-.projectDesc{
+.Data{
 	margin-left:0px;
 	margin-right:0px;
 }
-.experienceTitle{
-	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
-}
 
-.experienceDesc{
-	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
-}
 }
 /*------------------------------------------------------------------------------------------*/
