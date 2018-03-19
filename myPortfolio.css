@@ -152,6 +152,7 @@ p{
 .photoTitle{
 font-size:40px;
 color:white;
+margin-left:0px;
 	
 }
 
@@ -239,6 +240,20 @@ p{
 	
 		}
 		
+		.photoTitle{
+font-size:40px;
+color:white;
+margin-left:0px;
+	
+}
+
+p{
+	
+	font-family: calibri;
+	font-size:20rem;
+	color:white;
+	
+}
 
 		.profilePic{
 			height:20vh;width:20vw;border-radius:50%;
