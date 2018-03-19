@@ -152,7 +152,11 @@ p{
 	
 		}
 		
-
+.header:nth-child(2){
+	align-self:center;
+	height:20vh;width:20vw;
+	margin-top:-50px;
+}
 
 .desc{
 
