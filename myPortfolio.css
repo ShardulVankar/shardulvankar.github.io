@@ -119,8 +119,9 @@ p{
 	 height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
 	margin-right:100px;
 }
-
+/*-------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:500px){
+
 .myContainer{
 	display:flex;
 	
@@ -159,7 +160,7 @@ margin-left:0px;
 p{
 	
 	font-family: calibri;
-	font-size:20rem;
+	font-size:14rem;
 	color:white;
 	
 }
@@ -192,7 +193,7 @@ p{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
 .projectTitle{
-	height:auto;width:auto;color:white;font-size:20rem;margin-top:100px;margin-left:-0px;
+	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
 }
 
 .projectDesc{
@@ -210,7 +211,7 @@ p{
 
 
 
-
+/*-------------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -250,7 +251,7 @@ margin-left:0px;
 p{
 	
 	font-family: calibri;
-	font-size:20rem;
+	font-size:16rem;
 	color:white;
 	
 }
@@ -295,7 +296,7 @@ p{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
 .projectTitle{
-	height:auto;width:auto;color:white;font-size:20rem;margin-top:100px;margin-left:-0px;
+	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
 }
 
 .projectDesc{
