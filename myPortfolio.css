@@ -1,0 +1,161 @@
+:root{
+	font-size:1px;
+}
+.main-container{
+	
+		border:solid;
+		height:auto;
+		width:100%;
+		background-color:grey;
+		
+}
+
+.myContainer{
+	display:flex;
+	
+	align-items:flex-start;
+	flex-direction:column;
+	height:auto;
+	
+		 margin-left:100px;
+		 margin-right:100px;
+}
+.header{
+	
+	  width:100%;
+}
+
+.header:nth-child(1){
+	flex-basis:50%;
+	height:60vh;
+	border: 1px solid;
+	
+}
+
+.header:nth-child(2){
+	
+	color:red;
+	margin-top:-80px;
+	margin-left:20px;
+	height:20vh;width:12vw;
+	
+	
+}
+
+.profilePic{
+			height:20vh;width:12vw;border-radius:8%;
+			
+			 border: 1px solid black;
+		}
+		
+.desc{
+
+	height:auto;
+	margin-left:100px;
+	margin-right:100px;
+		
+}
+
+.photoTitle{
+font-size:40px;
+color:white;
+margin-bottom:20px;
+margin-left:20px;	
+}
+
+p{
+	
+	font-family: calibri;
+	font-size:20rem;
+	color:white;
+	
+}
+
+.images{
+	display:flex;
+	flex-wrap:wrap;
+	
+	width:100%;
+	 margin-left:20px; 
+	
+	
+	
+	 
+}
+
+.sub-images{
+	
+	 width:49%;
+	height:300px; 
+	color:white;
+	border: 5px solid red;
+	margin-bottom:1px;
+	margin-left:1px;
+	
+	
+	
+}
+.curriculum{
+	display:flex;flex-wrap:wrap;flex-direction:column;
+}
+.projectTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
+	margin-right:100px;
+}
+
+.projectDesc{
+	margin-left:100px;
+	margin-right:100px;
+}
+.experienceTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
+	margin-right:100px;
+}
+
+.experienceDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
+	margin-right:100px;
+}
+
+@media screen and (max-width:500px){
+.profilePic{
+			height:20vh;width:20vw;border-radius:50%;
+		}
+		
+}
+@media(min-width:500px) and (max-width:700px){
+	.header:nth-child(2){
+	align-self:center;
+	height:20vh;width:20vw;
+	margin-top:-50px;
+	
+}
+
+		.profilePic{
+			height:20vh;width:20vw;border-radius:50%;
+		}
+		
+		.div:nth-child(1){
+			flex-basis:50%;
+		}
+		
+		.sub-images:nth-child(1){
+	width:45%;
+	border-color:white;
+	}
+
+.sub-images:nth-child(2){
+	width:45%;
+	border-color:white;
+}
+
+.sub-images:nth-child(4){
+	width:93%;
+	border-color:white;
+}
+
+.sub-images:nth-child(5){
+	width:93%;
+	border-color:white;
+}
+
