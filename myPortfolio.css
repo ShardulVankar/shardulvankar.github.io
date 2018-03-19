@@ -25,6 +25,9 @@
 	  width:100%;
 }
 
+.timelineImage{
+	height:100%;width:100%;
+}
 .header:nth-child(1){
 	flex-basis:50%;
 	height:60vh;
@@ -118,18 +121,124 @@ p{
 }
 
 @media screen and (max-width:500px){
+.myContainer{
+	display:flex;
+	
+	align-items:flex-start;
+	margin-left:-3px;
+	flex-direction:column;
+	height:auto;
+	width:100%;
+}
+
 .profilePic{
 			height:20vh;width:20vw;border-radius:50%;
 		}
+		.header:nth-child(1){
+	width:100%;
+	height:50%;
+	
+		}
+		
+
+
+.desc{
+
+	height:auto;width:100%;margin-left:0px;
+	
 		
 }
+
+.photoTitle{
+font-size:40px;
+color:white;
+	
+}
+
+p{
+	
+	font-family: calibri;
+	font-size:20rem;
+	color:white;
+	
+}
+
+.images{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid;
+	width:97%;
+	margin-left:0px;
+	margin-top:10px;
+	
+	
+	 
+}
+
+.sub-images{
+	
+	 width:49%;
+	height:300px; 
+	color:white;
+	border: 5px solid red;
+	margin-bottom:1px;
+	margin-left:1px;
+	
+	
+	
+}
+.curriculum{
+	display:flex;flex-wrap:wrap;flex-direction:column;
+}
+.projectTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-top:100px;margin-left:-0px;
+}
+
+.projectDesc{
+	margin-left:0px;
+	margin-right:0px;
+}
+.experienceTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
+}
+
+.experienceDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
+}
+}
+
+
+
+
+
+
+
+
+
 @media(min-width:500px) and (max-width:700px){
+	
+	.myContainer{
+	display:flex;
+	
+	align-items:flex-start;
+	margin-left:-3px;
+	flex-direction:column;
+	height:auto;
+	width:100%;
+}
+
 	.header:nth-child(2){
 	align-self:center;
 	height:20vh;width:20vw;
 	margin-top:-50px;
 	
 }
+	.header:nth-child(1){
+	width:100%;
+	height:50%;
+	
+		}
+		
 
 		.profilePic{
 			height:20vh;width:20vw;border-radius:50%;
@@ -139,23 +248,50 @@ p{
 			flex-basis:50%;
 		}
 		
-		.sub-images:nth-child(1){
-	width:45%;
-	border-color:white;
-	}
+		.desc{
 
-.sub-images:nth-child(2){
-	width:45%;
-	border-color:white;
+	height:auto;width:100%;margin-left:0px;
+	
+		
+}
+	.images{
+	display:flex;
+	flex-wrap:wrap;
+	
+	width:100%;
+	margin-left:0px;
+	margin-top:10px;
+	
+	
+	 
 }
 
-.sub-images:nth-child(4){
-	width:93%;
-	border-color:white;
+.sub-images{
+	
+	 width:98.5%;
+	height:300px; 
+	color:white;
+	border: 5px solid white;
+	margin-bottom:1px;
+	margin-left:1px;
 }
 
-.sub-images:nth-child(5){
-	width:93%;
-	border-color:white;
+.curriculum{
+	display:flex;flex-wrap:wrap;flex-direction:column;
+}
+.projectTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-top:100px;margin-left:-0px;
 }
 
+.projectDesc{
+	margin-left:0px;
+	margin-right:0px;
+}
+.experienceTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
+}
+
+.experienceDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
+}
+}
