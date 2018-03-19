@@ -98,19 +98,38 @@ p{
 	
 	
 }
-.curriculum{
-	display:flex;flex-wrap:wrap;flex-direction:column;
-}
-.Title{
+
+.techTitle{
 	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
 	margin-right:100px;
 }
 
-.Data{
+.techDesc{
 	margin-left:100px;
 	margin-right:100px;
 }
-\
+
+.curriculum{
+	display:flex;flex-wrap:wrap;flex-direction:column;
+}
+.projectTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
+	margin-right:100px;
+}
+
+.projectDesc{
+	margin-left:100px;
+	margin-right:100px;
+}
+.experienceTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
+	margin-right:100px;
+}
+
+.experienceDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:100px;
+	margin-right:100px;
+}
 /*-------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:500px){
 
@@ -184,15 +203,30 @@ p{
 .curriculum{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
-.Title{
+
+.techTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
+}
+
+.techdesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
+}
+
+.projectTitle{
 	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
 }
 
-.Data{
+.projectDesc{
 	margin-left:0px;
 	margin-right:0px;
 }
+.experienceTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
+}
 
+.experienceDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
+}
 }
 
 
@@ -281,14 +315,31 @@ p{
 .curriculum{
 	display:flex;flex-wrap:wrap;flex-direction:column;
 }
-.Title{
+
+.techTitle{
 	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
 }
 
-.Data{
+.techDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
+}
+
+
+
+.projectTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-top:20px;margin-left:-0px;
+}
+
+.projectDesc{
 	margin-left:0px;
 	margin-right:0px;
 }
+.experienceTitle{
+	height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;
+}
 
+.experienceDesc{
+	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
+}
 }
 /*------------------------------------------------------------------------------------------*/
