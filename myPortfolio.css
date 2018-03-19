@@ -91,7 +91,7 @@ p{
 	 width:49%;
 	height:300px; 
 	color:white;
-	border: 5px solid red;
+	border: 5px solid white;
 	margin-bottom:1px;
 	margin-left:1px;
 	
@@ -311,3 +311,4 @@ p{
 	 height:auto;width:auto;color:white;font-size:20rem;margin-left:-0px;width:100%;
 }
 }
+/*------------------------------------------------------------------------------------------*/
